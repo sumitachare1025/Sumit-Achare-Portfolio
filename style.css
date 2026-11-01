@@ -100,3 +100,6 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:10px 0 40px}
 .wa svg{width:32px;height:32px;fill:#fff}
 .wa:before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #25d366;animation:waring 2s infinite}
 @keyframes waring{to{transform:scale(1.55);opacity:0}}
+
+nav{flex-wrap:wrap;gap:6px 12px}
+@media(max-width:520px){nav{padding:10px 14px}nav b{font-size:15px}nav a{margin-left:12px;font-size:13px}}
